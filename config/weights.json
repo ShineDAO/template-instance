@@ -1,0 +1,13 @@
+[
+    {
+        "type": "sourcecred/weights",
+        "version": "0.2.0"
+    },
+    {
+        "edgeWeights": {},
+        "nodeWeights": {
+            "N\u0000sourcecred\u0000discord\u0000MESSAGE\u0000": 0.5,
+            "N\u0000sourcecred\u0000discord\u0000REACTION\u0000": 1
+        }
+    }
+]
