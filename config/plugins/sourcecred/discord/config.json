@@ -9,8 +9,6 @@
     },
     "guildId": "785582893572948060",
     "includeNsfwChannels": false,
-    "propsChannels": [
-    ],
     "reactionWeightConfig": {
       "applyAveraging": false,
       "defaultWeight": 1,
