@@ -1,5 +1,10 @@
 {
-  "immediatePerWeek": 10000,
-  "balancedPerWeek": 0,
+  "allocationPolicies": [
+    {
+      "budget": "10000",
+      "numIntervalsLookback": 1,
+      "policyType": "IMMEDIATE"
+    }
+  ],
   "maxSimultaneousDistributions": 100
 }

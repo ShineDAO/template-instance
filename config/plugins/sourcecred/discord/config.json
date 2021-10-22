@@ -1,7 +1,7 @@
 [
   {
     "channelWeightConfig": {
-      "defaultWeight": 1,
+      "defaultWeight": 0,
       "weights": {
         "893061753196380181": 5,
         "893065603890421810": 5,
@@ -16,18 +16,17 @@
       "weights": {
         "👍": 1,
         "🌟": 5,
-        "⭐":5,
-        "✨":5,
-        "💫":5,
+        "⭐": 5,
+        "✨": 5,
+        "💫": 5,
         "✅": 2,
-        "❌":2
+        "❌": 2
       }
     },
     "propsChannels": ["879442311145209899"],
     "roleWeightConfig": {
       "defaultWeight": 1,
-      "weights": {
-      }
+      "weights": {}
     }
   }
 ]
