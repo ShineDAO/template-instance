@@ -31,7 +31,8 @@ async function main() {
       const sourceCredId = sourceCredAccount.identity.id;
       ledgerManager.ledger.activate(sourceCredId);
 
-      console.log("activating ", contributor.discordId, "...", sourceCredId);
+      //console.log("activating ", contributor.discordId, "...");
+      console.log(sourceCredAccount.identity.name);
 
       ledgerManager.ledger.setPayoutAddress(
         sourceCredId,
@@ -39,6 +40,8 @@ async function main() {
         "137",
         "0x53D76f967De13E7F95e90196438DCe695eCFA957"
       );
+    }else{
+        console.log("N/A")
     }
   }
   ledgerManager.persist();
